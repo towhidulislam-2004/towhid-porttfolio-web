@@ -6,11 +6,24 @@
 }
 
 /* shared style */
+.scondary-bg{
+  background-color: #fff8f3;
+}
 .text-primary {
   color: #fd6e0a;
 }
 .dark-2 {
   color: #474747;
+}
+
+.section-title{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+.section-description{
+  font-size: 18px;
+  color: #757575
 }
 
 /* header */
@@ -74,4 +87,23 @@ nav li a {
 } */
 .banner-profie-pic {
   width: 580px;
+}
+/* Main styles */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* about style */
+.about{
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
+.item-descriptin{
+  font-weight: 600;
 }
